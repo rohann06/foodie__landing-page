@@ -8,6 +8,7 @@ import AboutSection from "../components/AboutSection";
 import WorkSection from "../components/WorkSection";
 import TestimonialSection from "../components/TestimonialSection";
 import ContactSection from "../components/ContactSection";
+import FooterSection from "../components/FooterSection";
 
 const Home: NextPage = () => {
   return (
@@ -40,6 +41,8 @@ const Home: NextPage = () => {
         {/* Contact section */}
         <ContactSection/>
 
+        {/* Footer section */}
+        <FooterSection/>
       </main>
     </div>
   );

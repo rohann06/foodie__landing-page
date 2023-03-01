@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactSection = () => {
   return (
-    <div className=" text-center  mt-[400px]">
+    <div className=" text-center  mt-[300px]">
       <h1 className=" text-[#4C4C4C] font-Montserrat font-bold text-[60px]">
         Have Question In Mind? <br /> Let Us Help You
       </h1>
