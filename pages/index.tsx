@@ -5,6 +5,9 @@ import HeroSection from "../components/HeroSection";
 import herobackground from "../public/Assets/home-banner-background.png";
 import aboutbackground from "../public/Assets/about-background.png" 
 import AboutSection from "../components/AboutSection";
+import WorkSection from "../components/WorkSection";
+import TestimonialSection from "../components/TestimonialSection";
+import ContactSection from "../components/ContactSection";
 
 const Home: NextPage = () => {
   return (
@@ -29,6 +32,14 @@ const Home: NextPage = () => {
         <AboutSection/>
 
         {/* Work section */}
+        <WorkSection/>
+
+        {/* Testimonial section */}
+        <TestimonialSection/>
+
+        {/* Contact section */}
+        <ContactSection/>
+
       </main>
     </div>
   );
