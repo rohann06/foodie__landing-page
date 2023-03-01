@@ -9,7 +9,7 @@ import { IoCallSharp } from "react-icons/io5";
 const Navbar = () => {
   const [navOpen, setNavOpen] = useState(false);
   return (
-    <nav className=" lg:flex lg:justify-between gap-10 lg:items-center">
+    <nav className=" lg:flex lg:justify-between lg:items-center">
       <div className=" flex justify-between items-center">
         <h1 className=" text-[35px] lg:text-[45px] font-semibold text-[#FE9E0D]">
           FOODIE
@@ -25,7 +25,7 @@ const Navbar = () => {
       <div
         className={`${
           navOpen ? "block" : "hidden"
-        } absolute  lg:static justify-center bg-[#FE9E0D] lg:bg-inherit w-full lg:w-auto left-0 lg:flex lg:items-center lg:gap-10 lg:text-[21px] font-medium`}
+        } absolute  lg:static justify-center bg-[#FE9E0D] lg:bg-transparent w-full lg:w-auto left-0 lg:flex lg:items-center lg:gap-10 lg:text-[21px] font-medium bg-transparent`}
       >
         <p className=" flex items-center gap-2 cursor-pointer py-2 px-3">
           <p className=" text-lg lg:hidden">
