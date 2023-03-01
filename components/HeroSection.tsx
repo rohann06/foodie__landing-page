@@ -5,7 +5,7 @@ import { ImArrowRight2 } from "react-icons/im";
 
 const HeroSection = () => {
   return (
-    <div className=" flex justify-between items-center mt-10">
+    <div className=" lg:flex flex-col-reverse lg:flex-row justify-between items-center mt-10">
           <div>
             <div className=" text-[60px] font-extrabold  font-Montserrat text-[#4C4C4C] py-5">
               <h1>

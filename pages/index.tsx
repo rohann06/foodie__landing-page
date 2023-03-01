@@ -3,6 +3,8 @@ import Head from "next/head";
 import Image from "next/image";
 import HeroSection from "../components/HeroSection";
 import herobackground from "../public/Assets/home-banner-background.png";
+import aboutbackground from "../public/Assets/about-background.png" 
+import AboutSection from "../components/AboutSection";
 
 const Home: NextPage = () => {
   return (
@@ -14,10 +16,19 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
+        {/* Hero section */}
         <div className=" absolute top-0 right-0 -z-20 lg:h-[1077px]">
           <Image src={herobackground} height={700} width={760} alt="image" />
         </div>
         <HeroSection />
+
+        {/* About section */}
+        <div className=" absolute top-[1260px] left-0 -z-20 lg:h-[1052px] lg:w-[331px]">
+          <Image src={aboutbackground} height={700} width={760} alt="image" />
+        </div>
+        <AboutSection/>
+
+        {/* Work section */}
       </main>
     </div>
   );
