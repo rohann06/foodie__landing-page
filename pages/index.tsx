@@ -1,6 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import HeroSection from "../components/HeroSection";
+import herobackground from "../public/Assets/home-banner-background.png";
 
 const Home: NextPage = () => {
   return (
@@ -11,7 +13,12 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      
+      <main>
+        <div className=" absolute top-0 right-0 -z-20 lg:h-[1077px]">
+          <Image src={herobackground} height={700} width={760} alt="image" />
+        </div>
+        <HeroSection />
+      </main>
     </div>
   );
 };

@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className=" lg:flex lg:justify-between lg:items-center">
       <div className=" flex justify-between items-center">
-        <h1 className=" text-[35px] lg:text-[45px] font-semibold text-[#FE9E0D]">
+        <h1 className=" text-[35px] lg:text-[45px] font-semibold  text-yellow-50 lg:text-[#FE9E0D]">
           FOODIE
         </h1>
         <button
@@ -25,7 +25,7 @@ const Navbar = () => {
       <div
         className={`${
           navOpen ? "block" : "hidden"
-        } absolute  lg:static justify-center bg-[#FE9E0D] lg:bg-transparent w-full lg:w-auto left-0 lg:flex lg:items-center lg:gap-10 lg:text-[21px] font-medium bg-transparent`}
+        } absolute  lg:static justify-center w-full lg:w-auto shadow-lg lg:shadow-none bg-white lg:bg-transparent left-0 lg:flex lg:items-center lg:gap-10 lg:text-[21px] font-medium bg-transparent`}
       >
         <p className=" flex items-center gap-2 cursor-pointer py-2 px-3">
           <p className=" text-lg lg:hidden">
