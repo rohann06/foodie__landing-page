@@ -8,7 +8,7 @@ interface Props {
 
 const Layout = ({children}:Props) => {
   return (
-    <div className=' lg:mx-[5%] mt-[2%] font-Reem-Kufi'>
+    <div className=' lg:mx-[5%] mx-[2%] mt-[2%] font-Reem-Kufi'>
         <Navbar/>
         {children}
     </div>
