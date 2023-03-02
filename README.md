@@ -1,34 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# FOODIE (landing page)📃
+#### The project is a simple landing page for the comapny  name foodie, it's naot functional the buttons and cards are not working it's jus a UI code I did by refarring the Figma design.
 
-## Getting Started
+#### The intension behind this project was to lrarn how to code the website UI, using Figma defign nad also to  learn the TypeScript.
 
-First, run the development server:
+## Live application
+[![Already deployed version](https://vercel.com/button)](https://foodie-landing-page-zeta.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Technologies used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I've used ![Figma design](https://www.figma.com/file/oSk3FEZ7qJOTtRjKUJgYDW/Restaurant-Landing-Page-Project-For-Youtube?node-id=0%3A1&t=A0jUmQotKVcL7Nto-0) to write the UI code.    
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- **NextJs**
+- **Tailwind css**
+- **TypeScript**
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Functionality
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+the website is not functional, it's just a responcive UI
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+![landing-page](https://user-images.githubusercontent.com/75326769/222356027-98f76b52-73ea-4b9e-9e18-4bdaff82e902.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
