@@ -1,10 +1,10 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { type } from "os";
 import React from "react";
 
 type Props = {
-  image: string;
   title: string;
+  image: StaticImageData;
 };
 
 const Card = ({ image, title }: Props) => {
