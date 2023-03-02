@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import herobackgroundimage from "../public/Assets/home-banner-image.png";
+import herobackgroundimage from "../public/home-banner-image.png";
 import { ImArrowRight2 } from "react-icons/im";
 
 const HeroSection = () => {

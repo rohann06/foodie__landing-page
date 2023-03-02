@@ -1,9 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import Card from "./Card";
-import hand from "../public/Assets/choose-image.png";
-import truck from "../public/Assets/delivery-image.png";
-import food from "../public/Assets/pick-meals-image.png";
+
+//Image 
+import hand from "./../public/choose-image.png";
+import truck from "./../public/delivery-image.png";
+import food from "./../public/pick-meals-image.png";
 
 const WorkSection = () => {
   return (

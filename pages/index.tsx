@@ -1,14 +1,19 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+
+//Components 
 import HeroSection from "../components/HeroSection";
-import herobackground from "../public/Assets/home-banner-background.png";
-import aboutbackground from "../public/Assets/about-background.png" 
 import AboutSection from "../components/AboutSection";
 import WorkSection from "../components/WorkSection";
 import TestimonialSection from "../components/TestimonialSection";
 import ContactSection from "../components/ContactSection";
 import FooterSection from "../components/FooterSection";
+
+//Image
+import herobackground from "../public/home-banner-background.png";
+import aboutbackground from "../public/about-background.png" 
+
 
 const Home: NextPage = () => {
   return (

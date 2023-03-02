@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import myimage from "../public/Assets/rohan.png";
+import myimage from "../public/rohan.png";
 import { GiRoundStar } from "react-icons/gi";
 const TestimonialSection = () => {
   return (
@@ -38,7 +38,9 @@ const TestimonialSection = () => {
             <GiRoundStar />
             <GiRoundStar />
           </p>
-          <p className=" mt-5 text-[#1C1C1C] text-[30px] font-bold">Rohan Ahire</p>
+          <p className=" mt-5 text-[#1C1C1C] text-[30px] font-bold">
+            Rohan Ahire
+          </p>
         </div>
       </div>
     </div>

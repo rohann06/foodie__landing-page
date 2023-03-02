@@ -1,7 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import aboutbackgroundimage from "../public/Assets/about-background-image.png";
 import { AiFillPlayCircle } from "react-icons/ai";
+
+//image
+import aboutbackgroundimage from "../public/about-background-image.png";
 
 const AboutSection = () => {
   return (
@@ -38,7 +40,9 @@ const AboutSection = () => {
           <button className=" flex gap-2 items-center bg-[#FE9E0D] text-yellow-100 rounded-full font-semibold py-[14px] px-[45px] text-[20px]">
             Learn More
           </button>
-          <p className=" text-6xl text-[#484848]"><AiFillPlayCircle/></p>
+          <p className=" text-6xl text-[#484848]">
+            <AiFillPlayCircle />
+          </p>
           <p className=" text-xl text-[#484848] font-semibold">Watch Now</p>
         </div>
       </div>
