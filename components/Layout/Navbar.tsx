@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className=" lg:flex lg:justify-between lg:items-center">
       <div className=" flex justify-between items-center">
-        <h1 className=" text-[35px] lg:text-[45px] font-semibold  text-yellow-50 lg:text-[#FE9E0D]">
+        <h1 className=" text-[35px] lg:text-[45px] font-semibold text-yellow-50 lg:text-[#FE9E0D]">
           FOODIE
         </h1>
         <button
@@ -31,32 +31,32 @@ const Navbar = () => {
           <p className=" text-lg lg:hidden">
             <AiFillHome />
           </p>
-          Home
+          <a href="#hero">Home</a>
         </p>
         <p className=" flex items-center gap-2 cursor-pointer py-2 px-3">
           <p className=" text-lg lg:hidden">
             <BsFillInfoCircleFill />
           </p>
-          About
+          <a href="#about">About</a> 
         </p>
         <p className=" flex items-center gap-2 cursor-pointer py-2 px-3">
           <p className=" text-lg lg:hidden">
             <RiMessage2Fill />
           </p>
-          Testimonials
+          <a href="#testimonial">Testimonials</a> 
         </p>
         <p className=" flex items-center gap-2 cursor-pointer py-2 px-3">
           <p className=" text-lg lg:hidden">
             <IoCallSharp />
           </p>
-          Contact
+          <a href="#contact">Contact</a> 
         </p>
         <p className=" flex items-center gap-2 cursor-pointer py-2 px-3">
           <FiShoppingCart />
         </p>
 
         <button className=" bg-white text-black  px-3 py-2 lg:px-5 lg:py-3 rounded-full lg:text-[18px] mb-2">
-          Book Now
+          <a href="">Book Now</a> 
         </button>
       </div>
     </nav>

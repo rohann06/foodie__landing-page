@@ -4,44 +4,42 @@ import myimage from "../public/rohan.png";
 import { GiRoundStar } from "react-icons/gi";
 const TestimonialSection = () => {
   return (
-    <div className=" text-center mt-[300px]">
-      <p className=" text-[25px] font-semibold text-[#F4980D] font-Montserrat">
+    <div id="testimonial" className=" text-center lg:mt-[450px] mt-[150px]">
+      <p className="  text-[25px] font-semibold text-[#F4980D] font-Montserrat">
         Testimonial
       </p>
-      <h1 className=" font-Montserrat font-extrabold text-[#4C4C4C] text-[60px]">
+      <h1 className=" font-Montserrat font-extrabold text-[#4C4C4C] text-[30px] lg:text-[60px]">
         What They Are Saying
       </h1>
-      <p className=" text-[#828282] text-[25px] py-3">
+      <p className=" text-[#828282] text-[20px] lg:text-[25px] py-3">
         Lorem ipsum dolor sit amet consectetur. Non tincidunt <br /> magna non
         et elit. Dolor turpis molestie dui <br /> magnis facilisis at fringilla
         quam.
       </p>
 
-      <div className=" mx-80 rounded-3xl bg-yellow-50 shadow-lg font-Montserrat">
-        <div className=" grid justify-center my-10 px-10 py-8 ">
-          <Image
-            className=" mx-80"
-            src={myimage}
-            height={90}
-            width={90}
-            alt="iamge"
-          />
-          <p className=" text-[#515151] text-[25px] my-10 font-medium">
-            Lorem ipsum dolor sit amet consectetur. Non tincidunt <br /> magna
-            non et elit. Dolor turpis molestie <br /> magnis facilisis at
-            fringilla quam.
-          </p>
-          <p className=" flex justify-center gap-5 text-2xl text-[#FE9E0D]">
-            <GiRoundStar />
-            <GiRoundStar />
-            <GiRoundStar />
-            <GiRoundStar />
-            <GiRoundStar />
-          </p>
-          <p className=" mt-5 text-[#1C1C1C] text-[30px] font-bold">
-            Rohan Ahire
-          </p>
-        </div>
+      <div className=" bg-yellow-50 rounded-3xl shadow-lg font-Montserrat flex flex-col justify-center items-center lg:mx-80 lg:my-10  lg:px-10 lg:py-8 ">
+        <Image
+        className="my-5"
+          src={myimage}
+          height={90}
+          width={90}
+          alt="iamge"
+        />
+        <p className=" text-[#515151] text-[20px] lg:text-[25px] lg:my-10 my-5 font-medium">
+          Lorem ipsum dolor sit amet consectetur. Non tincidunt <br /> magna non
+          et elit. Dolor turpis molestie <br /> magnis facilisis at fringilla
+          quam.
+        </p>
+        <p className=" flex justify-center gap-5 text-xl lg:text-2xl text-[#FE9E0D]">
+          <GiRoundStar />
+          <GiRoundStar />
+          <GiRoundStar />
+          <GiRoundStar />
+          <GiRoundStar />
+        </p>
+        <p className=" my-5 text-[#1C1C1C] text-[30px] font-bold">
+          Rohan Ahire
+        </p>
       </div>
     </div>
   );
