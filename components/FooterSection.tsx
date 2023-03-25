@@ -4,7 +4,7 @@ import { FaFacebookF } from "react-icons/fa";
 
 const FooterSection = () => {
   return (
-    <div className=" flex lg:flex-row flex-col lg:justify-between justify-center items-center gap-10 pt-40 pb-32">
+    <div className=" flex lg:flex-row flex-col lg:justify-between justify-center items-center gap-10 lg:mt-[250px] mt-[150px] pb-10">
       <div>
         <h1 className=" text-[27px] lg:text-[35px] text-[#303030]">FOODIE</h1>
         <div className=" flex items-center gap-5 text-[#585858] lg:text-4xl text-2xl mt-5">
@@ -14,7 +14,7 @@ const FooterSection = () => {
           <FaFacebookF />
         </div>
       </div>
-      <div className=" flex lg:gap-40 gap-7 text-[15px] lg:text-[20px] font-Montserrat font-semibold text-[#4C4C4C]">
+      <div className=" flex items-center lg:gap-40 gap-7 text-[15px] lg:text-[20px] font-Montserrat font-semibold text-[#4C4C4C] text-center">
         <div>
           <p>Quality</p>
           <p>Help</p>

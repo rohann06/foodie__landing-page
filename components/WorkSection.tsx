@@ -9,7 +9,7 @@ import food from "./../public/pick-meals-image.png";
 
 const WorkSection = () => {
   return (
-    <div className=" mt-[250px] lg:mt-[400px]">
+    <div id="work" className=" lg:mt-[450px] mt-[150px]">
       <div className=" text-center">
         <p className=" text-[25px] font-semibold text-[#F4980D] font-Montserrat">
           Work

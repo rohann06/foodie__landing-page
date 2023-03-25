@@ -26,13 +26,13 @@ const Home: NextPage = () => {
 
       <main>
         {/* Hero section */}
-        <div className=" absolute top-0 right-0 -z-20 lg:h-[1077px]">
+        <div className=" absolute top-0 right-0 -z-20 h-[520px] lg:h-[1077px] lg:w-auto">
           <Image src={herobackground} height={700} width={760} alt="image" />
         </div>
         <HeroSection />
 
         {/* About section */}
-        <div className=" absolute top-[1260px] left-0 -z-20 lg:h-[1052px] lg:w-[331px]">
+        <div className=" absolute  lg:top-[1260px] left-0 -z-20 h-[220px] w-[250px] lg:h-[1052px] lg:w-[331px]">
           <Image src={aboutbackground} height={700} width={760} alt="image" />
         </div>
         <AboutSection/>

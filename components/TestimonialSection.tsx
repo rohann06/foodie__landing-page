@@ -4,7 +4,7 @@ import myimage from "../public/rohan.png";
 import { GiRoundStar } from "react-icons/gi";
 const TestimonialSection = () => {
   return (
-    <div className=" text-center mt-[200px] lg:mt-[300px]">
+    <div id="testimonial" className=" text-center lg:mt-[450px] mt-[150px]">
       <p className="  text-[25px] font-semibold text-[#F4980D] font-Montserrat">
         Testimonial
       </p>
